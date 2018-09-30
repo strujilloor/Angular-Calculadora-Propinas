@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Calculadora de Propinas';
-  propina = 0;
-  porcentaje = 0.1;
+  total:number = 0;
+  porcentaje:number = 0.1;
+  propina:number = this.total * this.porcentaje;
 }
