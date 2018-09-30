@@ -9,5 +9,5 @@ export class AppComponent {
   title = 'Calculadora de Propinas';
   total:number = 0;
   porcentaje:number = 0.1;
-  propina:number = this.total * this.porcentaje;
+  propina:number;
 }
